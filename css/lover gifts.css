@@ -1,3 +1,58 @@
-.misZhao {
-    color: red;
+input,ul,li,i {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.search {
+    width: 600px;
+    /* border: 1px solid red; */
+    /* margin、padding的百分比是相对于父级元素的宽度 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.input_data{
+    width: 480px;
+    padding: 8px;
+    border: 1px solid #b8b8b8;
+    border-bottom: 1px solid #ccc;
+    border-right: 0;
+    vertical-align: top;
+    outline: none;
+    height: 20px;
+    float: left;
+}
+.input_data:focus {
+    border-top: 1px solid #3388ff;
+    border-left: 1px solid #3388ff;
+    border-bottom: 1px solid #3388ff;
+}
+.btn {
+    /* box-shadow: h-shadow v-shadow blur spread color inset(内部阴影还是外部阴影); */
+    /* box-shadow: 1px 1px 3px rgba(0,0,0,0.2); */
+    cursor: pointer;/*鼠标的样式*/
+    width: 102px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    border: 0;
+    background: none;
+    background-color: #38f;
+    font-size: 16px;
+    color: white;
+    box-shadow: none;
+    font-weight: normal;
+    float: left;
+}
+.btn:hover{
+    background: #317ef3;
+}
+.icon i {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background-image: url(../image/water.jpg);
 }
