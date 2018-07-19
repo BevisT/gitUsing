@@ -50,9 +50,7 @@ input,ul,li,i {
 .btn:hover{
     background: #317ef3;
 }
-.icon i {
+.icon img {
     width: 100px;
     height: 50px;
-    display: inline-block;
-    background-image: url(../image/water.jpg);
 }
